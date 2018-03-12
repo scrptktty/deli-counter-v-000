@@ -19,8 +19,9 @@ end
 def take_a_number(katz_deli, name)
   katz_deli.each_with_index do |person_in_line, index|
     line_number = index + 1
+    
   end
-  puts "Welcome, #{person_in_line}. You are number #{line_number} in line."
+  puts "Welcome, #{name}. You are number #{line_number} in line."
 end
 
 def now_serving
