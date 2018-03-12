@@ -16,8 +16,10 @@ def line(katz_deli)
   end
 end
 
+binding.pry
+
 def take_a_number(katz_deli, name)
-  if katz_deli.empty? 
+  if katz_deli.empty?
     number = (line(katz_deli).length) + 1
     puts "Welcome, #{name}. You are number #{number} in line."
   else
