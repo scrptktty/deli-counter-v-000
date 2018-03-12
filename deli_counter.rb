@@ -17,11 +17,11 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  binding.pry
   when katz_deli.empty? == false
     number = (line(katz_deli).length) + 1
-    binding.pry
     puts "Welcome, #{name}. You are number #{number} in line."
-  end  
+  end
 end
 
 def now_serving
