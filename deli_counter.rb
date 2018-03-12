@@ -18,10 +18,10 @@ end
 
 def take_a_number(katz_deli, name)
   binding.pry
-  when katz_deli.empty? == false
-    number = (line(katz_deli).length) + 1
-    puts "Welcome, #{name}. You are number #{number} in line."
-  end
+  # when katz_deli.empty? == false
+  #   number = (line(katz_deli).length) + 1
+  #   puts "Welcome, #{name}. You are number #{number} in line."
+  # end
 end
 
 def now_serving
