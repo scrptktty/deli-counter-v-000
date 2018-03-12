@@ -19,7 +19,7 @@ end
 def take_a_number(katz_deli, name)
   # if katz_deli.empty?
     line_number = katz_deli.length + 1
-    katz_deli.push(name)
+    katz_deli << name
     puts "Welcome, #{name}. You are number #{line_number} in line."
   # else
   #   line_number = katz_deli.length + 1
