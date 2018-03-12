@@ -16,15 +16,10 @@ def line(katz_deli)
   end
 end
 
-binding.pry
-
 def take_a_number(katz_deli, name)
-  if katz_deli.empty?
-    number = (line(katz_deli).length) + 1
-    puts "Welcome, #{name}. You are number #{number} in line."
-  else
-    number = (line(katz_deli).length) + 1
-    puts "Welcome, #{name}. You are number #{number} in line."
+  katz_deli.each_with_index do |person_in_line, index|
+    line_number = index + 1
+    puts "Welcome, #{person_in_line}. You are number #{line_number} in line."
   end
 end
 
