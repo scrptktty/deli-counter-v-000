@@ -10,6 +10,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |person_in_line, index|
       line_number = index + 1
       deli_list = "#{line_number}. #{person_in_line}"
+      binding.pry
       deli_line << deli_list
     end
     "The line is currently:" + deli_line.join(" ")
