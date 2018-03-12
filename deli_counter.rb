@@ -15,17 +15,6 @@ def line(katz_deli)
     "The line is currently:" + deli_line.join(" ")
   end
 end
-#
-# def assign_rooms(attendees)
-#   welcome_rooms = []
-#   attendees.each_with_index do |attendee, index|
-#     room = index + 1
-#     room_list = "Hello, #{attendee}! You'll be assigned to room #{room}!"
-#     welcome_rooms << room_list
-#   end
-#   return welcome_rooms
-# end
-
 
 def take_a_number
 end
