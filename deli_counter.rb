@@ -17,6 +17,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  binding.pry
   # if katz_deli.empty?
     line_number = katz_deli.length + 1
     katz_deli << name
