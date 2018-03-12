@@ -17,13 +17,13 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.empty?
+  # if katz_deli.empty?
     line_number = katz_deli.length + 1
     puts "Welcome, #{name}. You are number #{line_number} in line."
-  else
-    line_number = katz_deli.length + 1
-    puts "Welcome, #{name}. You are number #{line_number} in line."
-  end
+  # else
+  #   line_number = katz_deli.length + 1
+  #   puts "Welcome, #{name}. You are number #{line_number} in line."
+  # end
 end
 
 def now_serving
