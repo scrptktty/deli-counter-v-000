@@ -19,7 +19,7 @@ end
 def take_a_number(katz_deli, name)
     number = (line(katz_deli).length) + 1
     binding.pry
-    puts "Welcome, #{name}. You are number #{number} in line.
+    puts "Welcome, #{name}. You are number #{number} in line."
 end
 
 def now_serving
