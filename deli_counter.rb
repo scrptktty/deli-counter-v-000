@@ -12,7 +12,6 @@ def line(katz_deli)
       deli_list = "#{line_number}. #{person_in_line}"
       deli_line << deli_list
     end
-    binding.pry
     "The line is currently:" + deli_line.join(" ")
   end
 end
